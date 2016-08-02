@@ -2,6 +2,15 @@
 
 A bash script tool for casting media to the Kodi entertainment center.
 
+### Feature List
+- Direct URLs Media Streaming
+- Multiple Device Support
+- Support for 15+ Kodi Addons
+- Stream Local Media via Samba
+- Torrent Streaming
+- Support for all media formats supported by Kodi (MP4, MKV, etc)
+- GUI via Zenity
+
 ### Dependencies:
 - awk
 - curl
