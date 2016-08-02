@@ -5,7 +5,7 @@ A bash script tool for casting media to the Kodi entertainment center.
 ### Feature List
 - Direct URLs Media Streaming
 - Multiple Device Support
-- Support for 15+ Kodi Addons
+- Support for 15+ Kodi Addons (including YouTube, Twitch, DailyMotion, JupiterBroadcasting, and many more)
 - Stream Local Media via Samba
 - Live Streaming via RTMP, RTSP, etc
 - Torrent Streaming
