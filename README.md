@@ -1,6 +1,6 @@
 ![Kast for Kodi](https://github.com/MichaelTunnell/Kast/blob/master/media/kast-logo.jpg)
 
-A bash script tool for casting media to the Kodi entertainment center.
+A bash script tool for casting media to the Kodi entertainment center using a Linux desktop/laptop.
 
 ### Feature List
 - Direct URLs Media Streaming
