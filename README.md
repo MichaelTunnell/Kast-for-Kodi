@@ -7,6 +7,7 @@ A bash script tool for casting media to the Kodi entertainment center.
 - Multiple Device Support
 - Support for 15+ Kodi Addons
 - Stream Local Media via Samba
+- Live Streaming via RTMP, RTSP, etc
 - Torrent Streaming
 - Support for all media formats supported by Kodi (MP4, MKV, etc)
 - GUI via Zenity
