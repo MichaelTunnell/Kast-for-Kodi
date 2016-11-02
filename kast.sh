@@ -1,19 +1,28 @@
-#!/bin/bash
-#Kast Variables
-kasturl=$2
-kodiport="8080" #kodi webserver port (default = 80)
-kodiuser="kodi" #kodi webserver user (default = kodi)
-kodipass="kodi" #kodi webserver password (default = kodi)
-smbpath="smb://BAAL" 
-kodiipone="192.168.1.111" #kodi device IP (System -> System Info -> Summary)
-kodiiptwo="192.168.1.101"
+#!/usr/bin/env bash
+
+#Kast default variables
+kodiport="80"
+kodiuser="kodi"
+kodipass="kodi"
+smbpath=""
+kodiipone=""
+kodiiptwo=""
 kodiipthree=""
 kodiipfour=""
 kodiipfive=""
 
+#Load config
+confdir=$(printenv XDG_CONFIG_HOME)
+if [ -z $confdir ]; then
+	confdir="$HOME/.config"
+fi
+source "$confdir/Kast/config"
+
+kasturl=$2
+
 if [ -z "$1" ];
 then
-OUTPUT=$(zenity --forms --title="Kast for Kodi" --text="" --separator=";" --add-entry="Device ID" --add-entry="URL / Path")
+	OUTPUT=$(zenity --forms --title="Kast for Kodi" --text="" --separator=";" --add-entry="Device ID" --add-entry="URL / Path")
 fi
 
 zenid=$(awk -F";" '{print $1}' <<<$OUTPUT)
@@ -21,12 +30,12 @@ zenpath=$(awk -F";" '{print $2}' <<<$OUTPUT)
 
 if [ -n "$zenid" ];
 then
-1=${zenid}
+	1=${zenid}
 fi
 
 if [ -n "$zenpath" ];
 then
-kasturl=${zenpath}
+	kasturl=${zenpath}
 fi
 
 if [[ "$1" == '1' ]]

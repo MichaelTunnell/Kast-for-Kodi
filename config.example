@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+kodiport="8080" #kodi webserver port (default = 80)
+#kodiuser="kodi" #kodi webserver user (default = kodi)
+#kodipass="kodi" #kodi webserver password (default = kodi)
+smbpath="smb://BAAL"
+kodiipone="192.168.1.111" #kodi device IP (System -> System Info -> Summary)
+kodiiptwo="192.168.1.101"
+#kodiipthree=""
+#kodiipfour=""
+#kodiipfive=""
+
