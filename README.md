@@ -5,7 +5,7 @@ A bash script tool for casting media to the Kodi entertainment center using a Li
 ### Feature List
 - Direct URLs Media Streaming
 - Multiple Device Support
-- Support for 15+ Kodi Addons (including YouTube, Twitch, DailyMotion, JupiterBroadcasting, and many more)
+- Support for 15+ Kodi Addons (including YouTube, Twitch, DailyMotion, and many more)
 - Stream Local Media via Samba
 - Live Streaming via RTMP, RTSP, etc
 - Torrent Streaming
@@ -24,6 +24,6 @@ A bash script tool for casting media to the Kodi entertainment center using a Li
 - zenity
 
 ### Roadmap
-- convert from Bash to Python 3
+- convert from Bash to Python 3 or GO (vote [here](https://github.com/MichaelTunnell/Kast/issues/2))
 - clean up addon support
 - improve UX for multiple devices
